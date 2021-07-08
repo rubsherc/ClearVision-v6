@@ -1,0 +1,105 @@
+/**
+ * @name MYTHEME
+ * @author Rubin
+ * @version 6
+ * @description Highly customizable and beautiful theme for BetterDiscord
+ * @source https://gitlab.com/rubens.github/ClearVision-v6
+ * @website https://gitlab.com/rubens.github/ClearVision-v6
+ * @invite 2fKpjAR
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Yomogi:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;300;400;500;700&display=swap');
+@import url('https://clearvision.gitlab.io/v6/main.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/base.css');
+@import url('https://discordstyles.github.io/RadialStatus/base.css');
+
+:root {
+  --main-color: #FF0000;
+  --hover-color: #1e63b3;
+  --success-color: #00FF8B;
+  --danger-color: #982929;
+  --text-normal: rgb(21, 255, 0);
+  --url-color: rgb(0, 238, 255);
+  --background-image: url('https://wallpapertops.com/walldb/original/e/9/d/156051.jpg');
+  --background-shading: 44%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 100%;
+  --background-contrast: 100%;
+  --background-saturation: 100%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 0px;
+  --background-overlay: rgba(0, 0, 0, 0.6);
+  --user-popout-image: var(--background-image);
+  --user-popout-position: var(--background-position);
+  --user-popout-size: var(--background-size);
+  --user-popout-repeat: var(--background-repeat);
+  --user-popout-attachment: var(--background-attachment);
+  --user-popout-brightness: var(--background-brightness)%;
+  --user-popout-contrast: var(--background-contrast)%;
+  --user-popout-saturation: var(--background-saturation)%;
+  --user-popout-grayscale: var(--background-grayscale)%;
+  --user-popout-invert: var(--background-invert)%;
+  --user-popout-blur: 0px;
+  --user-modal-image: var(--background-image);
+  --user-modal-position: var(--background-position);
+  --user-modal-size: var(--background-size);
+  --user-modal-repeat: var(--background-repeat);
+  --user-modal-attachment: var(--background-attachment);
+  --user-modal-brightness: var(--background-brightness)%;
+  --user-modal-contrast: var(--background-contrast)%;
+  --user-modal-saturation: var(--background-saturation)%;
+  --user-modal-grayscale: var(--background-grayscale)%;
+  --user-modal-invert: var(--background-invert)%;
+  --user-modal-blur: 0px;
+  --home-icon: url('https://clearvision.gitlab.io/icons/discord.svg');
+  --home-position: center;
+  --home-size: 49px;
+  --channel-unread: #37FF00;
+  --channel-color: rgb(255,229,0,1);
+  --muted-color: rgb(255, 0, 149);
+  --channel-text-selected: rgb(9, 255, 0);
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  --main-font: 'Yomogi';
+  --code-font: 'Source Sans Pro';
+  --channels-width: 300px;
+  --members-width: 257px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+  --HSL-server-icon-size: 50px;
+  --HSL-server-spacing: 21px;
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #02FF00;
+  --rs-idle-color: #FFBF00;
+  --rs-dnd-color: #FF0000;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #5E00FF;
+}
